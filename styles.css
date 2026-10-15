@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+}
+
+/*---------------------------------
+            header menu
+----------------------------------*/
+header{
+    background-color: white;
+}
+
+.logo{
+    height: 95px;
+    margin: 15px 20px;
+}
+
+.blue-banner{
+    display: responsive;
+    width: 100%;
+    height: 60px;
+    background-color: #04407c;
+}
+
+.header-menu{
+    width: auto;
+    border: none;
+    margin-left: 20px;
+}
+
+.header-menu th{
+    font-size: larger;
+    background-color: #04407c;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-menu a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.header-menu a:visited {
+    color: white;
+}
+
+.layout{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+/*---------------------------------
+            aside menu
+----------------------------------*/
+aside{
+    flex: 1;
+    padding-left: 30px;
+}
+
+/* Table of contents*/
+table{
+    text-align: left;
+    font-size: large;
+    width: 300px;
+    margin-left: auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #black;
+    padding: 15px 15px 15px 20px;
+}
+
+td a{
+    color: #04407c;
+    text-decoration: none;
+    display: block;
+}
+
+td{
+    background-color: #eee9e9;
+    padding: 15px 15px 15px 20px;
+}
+
+tr:hover td {
+    background-color: white;
+}
+
+tr:hover td a{
+    color: black;
+}
+
+/*---------------------------------
+            overview menu
+----------------------------------*/
+.overview {
+    flex: 2;
+}
+
+.overview h2{
+    font-size: 38px;
+}
+
+.overview h3{
+    font-size: 30px;
+}
+
+.overview p{
+    font-size: 25px;
+    padding: 5px 0 5px 0;
+}
+
+.overview ul{
+    font-size: 25px;
+}
+
+.overview a{
+    color: #04407c;
+}
+
+.overview a:hover{
+    color: black;
+}
+
+.picture{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.map {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    border: 0;
+}
+
+/*---------------------------------
+            footer menu
+----------------------------------*/
+footer{
+    background-color: #03417efd;
+    color: white;
+    width: 100%;
+    padding:30px;
+    padding-left: 13%;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer a:visited{
+    color: white;
+}
+.logo2{
+    height: 120px;
+}
